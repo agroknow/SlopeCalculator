@@ -16,7 +16,7 @@ request = {
             "size": 1200
         }
     },
-    "apikey": "32aa618e-be8b-32da-bc99-5172f90a903e",
+    "apikey": "apikey",
     "from": "2004-01-01",
     "to":"2012-12-31",
     "detail": True,
