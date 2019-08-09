@@ -1,15 +1,10 @@
 import requests
 import json
 import pandas as pd
-import matplotlib.pyplot as plt
 import datetime as dt
-import os
 from sklearn.linear_model import LinearRegression
 import matplotlib.pyplot as plt
 from datetime import datetime, timedelta
-from dateutil import relativedelta
-import collections
-import numpy as np
 
 
 now = datetime.now()
@@ -25,9 +20,7 @@ products = ["dietetic foods, food supplements, fortified foods", "cocoa and coco
             "poultry meat and poultry meat products", "cereals and bakery products", "fish and fish products",
             "herbs and spices", "meat and meat products (other than poultry)", "nuts, nut products and seeds",
             "milk and milk products"]
-# products=[1]
 for product in products:
-    # product = "nuts, nut products and seeds"
     request = {
         "aggregations": {
             "years_month": {

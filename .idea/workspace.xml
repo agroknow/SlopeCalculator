@@ -1,409 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/linearRegression.py" line="38" />
-  </component>
   <component name="ChangeListManager">
     <list default="true" id="3d5c7b7f-13e1-42ca-9c25-cf9b549a2b75" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/5/alcoholic beverages/[0.01317094].png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5/alcoholic beverages/[0.09185718].png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5/alcoholic beverages/[0.19714383].png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5/alcoholic beverages/[0.39328615].png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5/alcoholic beverages/[1.62717306].png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5/bivalve molluscs and products therefor/[-0.00365624].png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5/bivalve molluscs and products therefor/[-0.0247215].png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5/bivalve molluscs and products therefor/[-0.05470826].png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5/bivalve molluscs and products therefor/[-0.12357466].png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5/bivalve molluscs and products therefor/[-2.85429884].png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5/cephalopods and products thereof/[-0.30423296].png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5/cephalopods and products thereof/[0.0044839].png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5/cephalopods and products thereof/[0.03098438].png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5/cephalopods and products thereof/[0.06262649].png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5/cephalopods and products thereof/[0.13636131].png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5/cereals and bakery products/[0.07408875].png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5/cereals and bakery products/[0.51497647].png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5/cereals and bakery products/[1.06645235].png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5/cereals and bakery products/[2.00021447].png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5/cereals and bakery products/[3.09411305].png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5/cocoa and cocoa preparations, coffee and tea/[-3.80867289].png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5/cocoa and cocoa preparations, coffee and tea/[0.00311346].png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5/cocoa and cocoa preparations, coffee and tea/[0.0213777].png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5/cocoa and cocoa preparations, coffee and tea/[0.03703357].png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5/cocoa and cocoa preparations, coffee and tea/[0.0459368].png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5/confectionery/[0.01549659].png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5/confectionery/[0.10605496].png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5/confectionery/[0.2369415].png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5/confectionery/[0.47194832].png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5/confectionery/[0.47838631].png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5/dietetic foods, food supplements, fortified foods/[-2.47905106].png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5/dietetic foods, food supplements, fortified foods/[0.02363363].png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5/dietetic foods, food supplements, fortified foods/[0.1657406].png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5/dietetic foods, food supplements, fortified foods/[0.35184681].png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5/dietetic foods, food supplements, fortified foods/[0.70396725].png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5/eggs and egg products/[0.03137339].png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5/eggs and egg products/[0.21679736].png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5/eggs and egg products/[0.46593399].png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5/eggs and egg products/[0.93045752].png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5/eggs and egg products/[4.32667844].png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5/fats and oils/[-1.14981471].png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5/fats and oils/[0.00159937].png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5/fats and oils/[0.01108357].png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5/fats and oils/[0.02477383].png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5/fats and oils/[0.04736847].png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5/feed additives/[-0.0039275].png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5/feed additives/[-0.02750296].png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5/feed additives/[-0.05860706].png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5/feed additives/[-0.11035451].png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5/feed additives/[-1.58785364].png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5/fish and fish products/[-0.00159345].png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5/fish and fish products/[-14.20244963].png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5/fish and fish products/[0.00593422].png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5/fish and fish products/[0.04236346].png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5/fish and fish products/[0.05205054].png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5/food contact materials/[-0.00563617].png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5/food contact materials/[-0.03885707].png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5/food contact materials/[-0.08121962].png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5/food contact materials/[-0.16380558].png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5/food contact materials/[-3.45745364].png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5/herbs and spices/[-7.17104035].png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5/herbs and spices/[0.01440241].png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5/herbs and spices/[0.09732535].png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5/herbs and spices/[0.22138581].png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5/herbs and spices/[0.43284092].png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5/honey and royal jelly/[0.00327385].png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5/honey and royal jelly/[0.02286407].png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5/honey and royal jelly/[0.04913565].png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5/honey and royal jelly/[0.09329018].png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5/honey and royal jelly/[0.15650672].png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5/ices and desserts/[-0.00037898].png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5/ices and desserts/[-0.0033355].png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5/ices and desserts/[-0.00386058].png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5/ices and desserts/[-0.01388348].png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5/ices and desserts/[-2.09754986].png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5/meat and meat products (other than poultry)/[-3.69731069].png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5/meat and meat products (other than poultry)/[0.02304336].png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5/meat and meat products (other than poultry)/[0.16216492].png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5/meat and meat products (other than poultry)/[0.34384177].png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5/meat and meat products (other than poultry)/[0.68151538].png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5/milk and milk products/[-3.9646228].png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5/milk and milk products/[0.00277332].png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5/milk and milk products/[0.0198776].png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5/milk and milk products/[0.04013979].png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5/milk and milk products/[0.07787472].png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5/non-alcoholic beverages/[-1.24327329].png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5/non-alcoholic beverages/[0.00319552].png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5/non-alcoholic beverages/[0.02210059].png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5/non-alcoholic beverages/[0.04257785].png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5/non-alcoholic beverages/[0.09924463].png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5/nuts, nut products and seeds/[-5.26070748].png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5/nuts, nut products and seeds/[0.04537028].png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5/nuts, nut products and seeds/[0.3150826].png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5/nuts, nut products and seeds/[0.63184773].png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5/nuts, nut products and seeds/[1.12070354].png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5/pet feed/[-0.00114197].png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5/pet feed/[-0.00803434].png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5/pet feed/[-0.01655783].png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5/pet feed/[-0.02950897].png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5/pet feed/[-0.48498238].png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5/poultry meat and poultry meat products/[0.04434636].png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5/poultry meat and poultry meat products/[0.3088204].png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5/poultry meat and poultry meat products/[0.63570506].png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5/poultry meat and poultry meat products/[1.17748223].png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5/poultry meat and poultry meat products/[1.55958477].png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5/prepared dishes and snacks/[0.01600388].png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5/prepared dishes and snacks/[0.11169618].png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5/prepared dishes and snacks/[0.22909617].png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5/prepared dishes and snacks/[0.42333255].png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5/prepared dishes and snacks/[0.49556179].png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5/soups, broths, sauces and condiments/[-0.42270521].png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5/soups, broths, sauces and condiments/[0.00712946].png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5/soups, broths, sauces and condiments/[0.05001303].png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5/soups, broths, sauces and condiments/[0.10629444].png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5/soups, broths, sauces and condiments/[0.21934273].png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/comp_div/alcoholic beverages/month.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/comp_div/bivalve molluscs and products therefor/month.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/comp_div/cephalopods and products thereof/semi-month.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/comp_div/cereals and bakery products/month.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/comp_div/cocoa and cocoa preparations, coffee and tea/month.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/comp_div/confectionery/month.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/comp_div/dietetic foods, food supplements, fortified foods/semi-month.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/comp_div/eggs and egg products/semi-month.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/comp_div/fats and oils/month.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/comp_div/feed additives/month.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/comp_div/fish and fish products/semi-month.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/comp_div/food contact materials/semi-month.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/comp_div/herbs and spices/semi-month.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/comp_div/honey and royal jelly/month.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/comp_div/ices and desserts/month.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/comp_div/meat and meat products (other than poultry)/week.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/comp_div/milk and milk products/semi-month.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/comp_div/non-alcoholic beverages/semi-month.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/comp_div/nuts, nut products and seeds/semi-month.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/comp_div/pet feed/month.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/comp_div/poultry meat and poultry meat products/semi-month.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/comp_div/prepared dishes and snacks/semi-month.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/comp_div/soups, broths, sauces and condiments/month.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/csvfile.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist_mean_3/alcoholic beverages/month.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist_mean_3/alcoholic beverages/semi-month.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist_mean_3/alcoholic beverages/year.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist_mean_3/bivalve molluscs and products therefor/month.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist_mean_3/bivalve molluscs and products therefor/year.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist_mean_3/cephalopods and products thereof/year.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist_mean_3/cereals and bakery products/month.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist_mean_3/cereals and bakery products/semi-month.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist_mean_3/cereals and bakery products/week.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist_mean_3/cereals and bakery products/year.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist_mean_3/cocoa and cocoa preparations, coffee and tea/month.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist_mean_3/cocoa and cocoa preparations, coffee and tea/semi-month.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist_mean_3/cocoa and cocoa preparations, coffee and tea/year.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist_mean_3/confectionery/month.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist_mean_3/confectionery/year.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist_mean_3/dietetic foods, food supplements, fortified foods/month.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist_mean_3/dietetic foods, food supplements, fortified foods/semi-month.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist_mean_3/dietetic foods, food supplements, fortified foods/week.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist_mean_3/dietetic foods, food supplements, fortified foods/year.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist_mean_3/eggs and egg products/month.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist_mean_3/eggs and egg products/semi-month.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist_mean_3/eggs and egg products/week.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist_mean_3/eggs and egg products/year.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist_mean_3/fats and oils/month.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist_mean_3/fats and oils/year.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist_mean_3/fish and fish products/month.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist_mean_3/fish and fish products/semi-month.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist_mean_3/fish and fish products/week.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist_mean_3/fish and fish products/year.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist_mean_3/food contact materials/month.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist_mean_3/food contact materials/year.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist_mean_3/herbs and spices/month.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist_mean_3/herbs and spices/semi-month.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist_mean_3/herbs and spices/week.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist_mean_3/herbs and spices/year.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist_mean_3/honey and royal jelly/year.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist_mean_3/ices and desserts/month.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist_mean_3/ices and desserts/year.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist_mean_3/meat and meat products (other than poultry)/day.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist_mean_3/meat and meat products (other than poultry)/month.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist_mean_3/meat and meat products (other than poultry)/semi-month.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist_mean_3/meat and meat products (other than poultry)/week.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist_mean_3/meat and meat products (other than poultry)/year.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist_mean_3/milk and milk products/month.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist_mean_3/milk and milk products/semi-month.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist_mean_3/milk and milk products/year.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist_mean_3/non-alcoholic beverages/month.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist_mean_3/non-alcoholic beverages/semi-month.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist_mean_3/non-alcoholic beverages/year.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist_mean_3/nuts, nut products and seeds/month.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist_mean_3/nuts, nut products and seeds/semi-month.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist_mean_3/nuts, nut products and seeds/week.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist_mean_3/nuts, nut products and seeds/year.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist_mean_3/poultry meat and poultry meat products/month.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist_mean_3/poultry meat and poultry meat products/semi-month.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist_mean_3/poultry meat and poultry meat products/week.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist_mean_3/poultry meat and poultry meat products/year.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist_mean_3/prepared dishes and snacks/month.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist_mean_3/prepared dishes and snacks/semi-month.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist_mean_3/prepared dishes and snacks/year.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist_mean_3/soups, broths, sauces and condiments/month.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist_mean_3/soups, broths, sauces and condiments/semi-month.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist_mean_3/soups, broths, sauces and condiments/year.png" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/linear_last_3_years.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/or/alcoholic beverages/month.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/or/alcoholic beverages/semi-month.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/or/alcoholic beverages/year.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/or/bivalve molluscs and products therefor/month.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/or/bivalve molluscs and products therefor/semi-month.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/or/bivalve molluscs and products therefor/week.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/or/bivalve molluscs and products therefor/year.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/or/cephalopods and products thereof/month.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/or/cephalopods and products thereof/year.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/or/cereals and bakery products/month.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/or/cereals and bakery products/semi-month.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/or/cereals and bakery products/week.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/or/cereals and bakery products/year.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/or/cocoa and cocoa preparations, coffee and tea/month.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/or/cocoa and cocoa preparations, coffee and tea/semi-month.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/or/cocoa and cocoa preparations, coffee and tea/week.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/or/cocoa and cocoa preparations, coffee and tea/year.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/or/confectionery/month.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/or/confectionery/semi-month.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/or/confectionery/year.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/or/eggs and egg products/month.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/or/eggs and egg products/semi-month.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/or/eggs and egg products/week.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/or/eggs and egg products/year.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/or/fats and oils/month.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/or/fats and oils/semi-month.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/or/fats and oils/year.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/or/feed additives/year.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/or/fish and fish products/month.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/or/fish and fish products/semi-month.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/or/fish and fish products/week.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/or/fish and fish products/year.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/or/food contact materials/month.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/or/food contact materials/semi-month.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/or/food contact materials/week.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/or/food contact materials/year.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/or/herbs and spices/day.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/or/herbs and spices/month.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/or/herbs and spices/semi-month.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/or/herbs and spices/week.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/or/herbs and spices/year.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/or/honey and royal jelly/month.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/or/honey and royal jelly/year.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/or/ices and desserts/month.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/or/ices and desserts/year.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/or/meat and meat products (other than poultry)/day.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/or/meat and meat products (other than poultry)/month.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/or/meat and meat products (other than poultry)/semi-month.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/or/meat and meat products (other than poultry)/week.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/or/meat and meat products (other than poultry)/year.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/or/milk and milk products/month.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/or/milk and milk products/semi-month.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/or/milk and milk products/week.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/or/milk and milk products/year.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/or/non-alcoholic beverages/month.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/or/non-alcoholic beverages/semi-month.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/or/non-alcoholic beverages/week.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/or/non-alcoholic beverages/year.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/or/nuts, nut products and seeds/day.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/or/nuts, nut products and seeds/month.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/or/nuts, nut products and seeds/semi-month.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/or/nuts, nut products and seeds/week.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/or/nuts, nut products and seeds/year.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/or/pet feed/month.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/or/pet feed/year.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/or/poultry meat and poultry meat products/month.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/or/poultry meat and poultry meat products/semi-month.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/or/poultry meat and poultry meat products/week.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/or/poultry meat and poultry meat products/year.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/or/prepared dishes and snacks/month.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/or/prepared dishes and snacks/semi-month.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/or/prepared dishes and snacks/week.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/or/prepared dishes and snacks/year.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/or/soups, broths, sauces and condiments/month.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/or/soups, broths, sauces and condiments/semi-month.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/or/soups, broths, sauces and condiments/week.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/or/soups, broths, sauces and condiments/year.png" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/select_division_.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/years_ago_3/alcoholic beverages/day.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/years_ago_3/alcoholic beverages/month.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/years_ago_3/alcoholic beverages/semi-month.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/years_ago_3/alcoholic beverages/week.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/years_ago_3/alcoholic beverages/year.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/years_ago_3/bivalve molluscs and products therefor/day.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/years_ago_3/bivalve molluscs and products therefor/month.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/years_ago_3/bivalve molluscs and products therefor/semi-month.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/years_ago_3/bivalve molluscs and products therefor/week.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/years_ago_3/bivalve molluscs and products therefor/year.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/years_ago_3/cephalopods and products thereof/day.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/years_ago_3/cephalopods and products thereof/month.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/years_ago_3/cephalopods and products thereof/semi-month.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/years_ago_3/cephalopods and products thereof/week.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/years_ago_3/cephalopods and products thereof/year.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/years_ago_3/cereals and bakery products/day.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/years_ago_3/cereals and bakery products/month.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/years_ago_3/cereals and bakery products/semi-month.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/years_ago_3/cereals and bakery products/week.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/years_ago_3/cereals and bakery products/year.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/years_ago_3/cocoa and cocoa preparations, coffee and tea/day.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/years_ago_3/cocoa and cocoa preparations, coffee and tea/month.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/years_ago_3/cocoa and cocoa preparations, coffee and tea/semi-month.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/years_ago_3/cocoa and cocoa preparations, coffee and tea/week.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/years_ago_3/cocoa and cocoa preparations, coffee and tea/year.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/years_ago_3/confectionery/day.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/years_ago_3/confectionery/month.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/years_ago_3/confectionery/semi-month.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/years_ago_3/confectionery/week.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/years_ago_3/confectionery/year.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/years_ago_3/dietetic foods, food supplements, fortified foods/day.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/years_ago_3/dietetic foods, food supplements, fortified foods/month.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/years_ago_3/dietetic foods, food supplements, fortified foods/semi-month.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/years_ago_3/dietetic foods, food supplements, fortified foods/week.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/years_ago_3/dietetic foods, food supplements, fortified foods/year.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/years_ago_3/eggs and egg products/day.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/years_ago_3/eggs and egg products/month.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/years_ago_3/eggs and egg products/semi-month.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/years_ago_3/eggs and egg products/week.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/years_ago_3/eggs and egg products/year.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/years_ago_3/fats and oils/day.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/years_ago_3/fats and oils/month.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/years_ago_3/fats and oils/semi-month.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/years_ago_3/fats and oils/week.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/years_ago_3/fats and oils/year.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/years_ago_3/feed additives/day.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/years_ago_3/feed additives/month.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/years_ago_3/feed additives/semi-month.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/years_ago_3/feed additives/week.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/years_ago_3/feed additives/year.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/years_ago_3/fish and fish products/day.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/years_ago_3/fish and fish products/month.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/years_ago_3/fish and fish products/semi-month.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/years_ago_3/fish and fish products/week.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/years_ago_3/fish and fish products/year.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/years_ago_3/food contact materials/day.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/years_ago_3/food contact materials/month.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/years_ago_3/food contact materials/semi-month.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/years_ago_3/food contact materials/week.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/years_ago_3/food contact materials/year.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/years_ago_3/herbs and spices/day.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/years_ago_3/herbs and spices/month.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/years_ago_3/herbs and spices/semi-month.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/years_ago_3/herbs and spices/week.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/years_ago_3/herbs and spices/year.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/years_ago_3/honey and royal jelly/day.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/years_ago_3/honey and royal jelly/month.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/years_ago_3/honey and royal jelly/semi-month.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/years_ago_3/honey and royal jelly/week.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/years_ago_3/honey and royal jelly/year.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/years_ago_3/ices and desserts/day.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/years_ago_3/ices and desserts/month.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/years_ago_3/ices and desserts/semi-month.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/years_ago_3/ices and desserts/week.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/years_ago_3/ices and desserts/year.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/years_ago_3/meat and meat products (other than poultry)/day.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/years_ago_3/meat and meat products (other than poultry)/month.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/years_ago_3/meat and meat products (other than poultry)/semi-month.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/years_ago_3/meat and meat products (other than poultry)/week.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/years_ago_3/meat and meat products (other than poultry)/year.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/years_ago_3/milk and milk products/day.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/years_ago_3/milk and milk products/month.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/years_ago_3/milk and milk products/semi-month.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/years_ago_3/milk and milk products/week.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/years_ago_3/milk and milk products/year.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/years_ago_3/non-alcoholic beverages/day.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/years_ago_3/non-alcoholic beverages/month.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/years_ago_3/non-alcoholic beverages/semi-month.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/years_ago_3/non-alcoholic beverages/week.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/years_ago_3/non-alcoholic beverages/year.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/years_ago_3/nuts, nut products and seeds/day.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/years_ago_3/nuts, nut products and seeds/month.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/years_ago_3/nuts, nut products and seeds/semi-month.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/years_ago_3/nuts, nut products and seeds/week.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/years_ago_3/nuts, nut products and seeds/year.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/years_ago_3/pet feed/day.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/years_ago_3/pet feed/month.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/years_ago_3/pet feed/semi-month.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/years_ago_3/pet feed/week.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/years_ago_3/pet feed/year.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/years_ago_3/poultry meat and poultry meat products/day.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/years_ago_3/poultry meat and poultry meat products/month.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/years_ago_3/poultry meat and poultry meat products/semi-month.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/years_ago_3/poultry meat and poultry meat products/week.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/years_ago_3/poultry meat and poultry meat products/year.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/years_ago_3/prepared dishes and snacks/day.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/years_ago_3/prepared dishes and snacks/month.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/years_ago_3/prepared dishes and snacks/semi-month.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/years_ago_3/prepared dishes and snacks/week.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/years_ago_3/prepared dishes and snacks/year.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/years_ago_3/soups, broths, sauces and condiments/day.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/years_ago_3/soups, broths, sauces and condiments/month.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/years_ago_3/soups, broths, sauces and condiments/semi-month.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/years_ago_3/soups, broths, sauces and condiments/week.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/years_ago_3/soups, broths, sauces and condiments/year.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api_creation.py" beforeDir="false" afterPath="$PROJECT_DIR$/api_creation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api_creation.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/api_dataframe.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linearRegression.py" beforeDir="false" afterPath="$PROJECT_DIR$/linearRegression.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -416,20 +20,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/select_division_.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="89">
-              <caret line="293" column="10" selection-end-line="335" />
+            <state relative-caret-position="4730">
+              <caret line="311" column="17" selection-start-line="311" selection-start-column="17" selection-end-line="311" selection-end-column="17" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/csvfile.csv">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" selection-start-line="1" selection-end-line="1" />
             </state>
           </provider>
         </entry>
@@ -437,20 +32,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/linear_last_3_years.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="6" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
-              <folding>
-                <element signature="e#0#15#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/api_creation.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="87" column="58" selection-start-line="87" selection-start-column="58" selection-end-line="87" selection-end-column="58" />
+            <state relative-caret-position="-327">
+              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
@@ -461,8 +44,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/linearRegression.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="663">
-              <caret line="43" selection-start-line="43" selection-end-line="43" />
+            <state relative-caret-position="493">
+              <caret line="29" column="18" selection-start-line="29" selection-start-column="18" selection-end-line="29" selection-end-column="18" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -485,20 +68,20 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/linearRegression.py" />
         <option value="$PROJECT_DIR$/csvfile.csv" />
         <option value="$PROJECT_DIR$/api_creation.py" />
         <option value="$PROJECT_DIR$/api_dataframe.py" />
         <option value="$PROJECT_DIR$/filter.py" />
         <option value="$PROJECT_DIR$/linear_last_3_years.py" />
+        <option value="$PROJECT_DIR$/linearRegression.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="1890" />
-    <option name="y" value="49" />
-    <option name="width" value="2015" />
-    <option name="height" value="2124" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="1909" />
+    <option name="y" value="-11" />
+    <option name="width" value="3863" />
+    <option name="height" value="2123" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -688,23 +271,22 @@
       <workItem from="1565207672962" duration="15893000" />
       <workItem from="1565224250075" duration="2964000" />
       <workItem from="1565228198659" duration="813000" />
-      <workItem from="1565285248135" duration="19128000" />
+      <workItem from="1565285248135" duration="20647000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="103546000" />
+    <option name="totallyTimeSpent" value="105065000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1913" y="-7" width="2575" height="1415" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.08581645" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32943925" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.23442368" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3291829" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.23424125" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -712,12 +294,12 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.088785045" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.33956388" />
       <window_info anchor="bottom" id="Python Console" order="11" weight="0.3297062" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="SciView" order="3" visible="true" weight="0.19864918" />
+      <window_info anchor="right" id="SciView" order="3" weight="0.38910505" />
     </layout>
     <layout-to-restore>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.02224871" />
@@ -749,7 +331,7 @@
     <SUITE FILE_PATH="coverage/product_feature$filter.coverage" NAME="filter Coverage Results" MODIFIED="1565311515983" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/product_feature$api_dataframe.coverage" NAME="api_dataframe Coverage Results" MODIFIED="1565304938124" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/product_feature$api_creation.coverage" NAME="api_creation Coverage Results" MODIFIED="1565304145307" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/product_feature$linear_last_3_years.coverage" NAME="linear_last_3_years Coverage Results" MODIFIED="1565312427444" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/product_feature$linear_last_3_years.coverage" NAME="linear_last_3_years Coverage Results" MODIFIED="1565313622637" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/food_dataset.csv">
@@ -762,10 +344,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/csvfile.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/select_division_.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4730">
+          <caret line="311" column="17" selection-start-line="311" selection-start-column="17" selection-end-line="311" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/linearRegression.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="663">
-          <caret line="43" selection-start-line="43" selection-end-line="43" />
+        <state relative-caret-position="493">
+          <caret line="29" column="18" selection-start-line="29" selection-start-column="18" selection-end-line="29" selection-end-column="18" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>
@@ -782,27 +381,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/csvfile.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/select_division_.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="89">
-          <caret line="293" column="10" selection-end-line="335" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/linear_last_3_years.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="6" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
+        <state relative-caret-position="-327">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
