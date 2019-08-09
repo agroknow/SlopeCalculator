@@ -33,11 +33,6 @@ print(y_pred)
 plt.scatter(x,y)
 plt.plot(x,y_pred,  color='black')
 plt.show()
-# plt.show()
+plt.show()
 quit(0)
 
-plt.plot(x,  color='red')
-plt.show()
-
-plt.show()
-# quit(0)
