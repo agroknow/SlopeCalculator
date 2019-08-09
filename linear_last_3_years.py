@@ -1,7 +1,4 @@
-
 #
-
-
 
 
 def load_dataset(years_ago, product):
@@ -66,6 +63,8 @@ def load_dataset(years_ago, product):
     # for product in products:
 
     # freq
+
+
 def linear_regression(df):
     from sklearn.linear_model import LinearRegression
     import matplotlib.pyplot as plt
@@ -95,14 +94,17 @@ def linear_regression(df):
 
     plt.scatter(x, y)
     plt.plot(x, y_pred, color='black')
+    # plt.tight_layout()
+    plt.savefig('plots/sample.png')
+    filename = 'plots/sample.png'
     plt.show()
-    return slope
+    return slope, filename
 
 
 years_ago = 3
 product = "nuts, nut products and seeds"
 df = load_dataset(years_ago, product)
-slope=linear_regression(df)
+slope = linear_regression(df)
 print(slope)
 # df_day_freq = df
 # df_weekly_freq = df.resample('W').sum()

@@ -1,3 +1,5 @@
+import base64
+
 from flask import Flask, escape, request
 
 app = Flask(__name__)
@@ -17,9 +19,11 @@ def api_training():
     years_ago=int(years_ago)
     from linear_last_3_years import load_dataset,linear_regression
     df = load_dataset(years_ago, product)
-    slope = linear_regression(df)
+    slope, filename = linear_regression(df)
+    with open(filename, "rb") as image_file:
+        encoded_string = base64.b64encode(image_file.read())
     print(slope)
-    return "ok"
+    return encoded_string
 
 @app.errorhandler(404)
 def page_not_found(e):
