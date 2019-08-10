@@ -1,0 +1,24 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Linear_regr_UI</title>
+</head>
+<body>
+
+<h1>WELCOME</h1>
+<form action="http://localhost:5000/linear" method = "GET">
+  PRODUCT_NAME:<br>
+  <input type="text" name="product">
+  <br>
+  YEARS_AGO:<br>
+  <input type="number" name="years_ago">
+  <br><br>
+  <input type="submit" value="GO">
+</form>
+<h3> Product Name:{{product}}</h3>
+<h3> Years Name:{{years_ago}}</h3>
+<img src="data:image/png;base64, {{encoded_string}}" />
+
+</body>
+</html>

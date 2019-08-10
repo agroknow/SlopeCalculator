@@ -1,7 +1,4 @@
-
 #
-
-
 
 
 def load_dataset(years_ago, product):
@@ -10,6 +7,12 @@ def load_dataset(years_ago, product):
     import requests
     import json
     import datetime as dt
+    f = open("api_key", "r")
+    api_key=f.readline()
+    api_key=str(api_key)
+    # print(api_key)
+
+
 
     now = datetime.now()
     end = str(now.year - 1) + '-12' + '-31'
@@ -22,9 +25,16 @@ def load_dataset(years_ago, product):
                 "format": "yyyy-MM-dd",
                 "interval": "DAY",
                 "size": 1200
+
+            },
+            "products": {
+                "attribute": "products.value.keyword",
+
+                "size": 1200
+
             }
         },
-        "apikey": '32aa618e-be8b-32da-bc99-5172f90a903e',
+        "apikey": api_key,
         "from": begin,
         "to": end,
         "detail": True,
@@ -36,13 +46,20 @@ def load_dataset(years_ago, product):
         }
     }
 
-    apikey = '32aa618e-be8b-32da-bc99-5172f90a903e'
+    apikey=str(api_key)
+    # apikey = '32aa618e-be8b-32da-bc99-5172f90a903e'
     base_incidents = 'http://148.251.22.254:8080/search-api-1.0/search/'
     headers = {'Content-type': 'application/json', 'Accept': 'application/json'}
     request['entityType'] = 'incident'
     response = requests.post(base_incidents, data=json.dumps(request), headers=headers)
-    data = response.text
-    parsed = json.loads(data)
+    print(response)
+
+    # data = response.text
+    # parsed = json.loads(data)
+
+    parsed = response.json()
+    print(parsed)
+    # quit(0)
     for i in parsed.values():
         print(parsed['aggregations']['date_histogram#years_month']['buckets'])
     # dataframe
@@ -66,6 +83,8 @@ def load_dataset(years_ago, product):
     # for product in products:
 
     # freq
+
+
 def linear_regression(df):
     from sklearn.linear_model import LinearRegression
     import matplotlib.pyplot as plt
@@ -87,22 +106,25 @@ def linear_regression(df):
     y_pred = reg.predict(x)
     inc_sum = df['doc_count'].sum()
     # plot
-    plt.title('YEAR')
+    plt.title('LINEAR REGRESSION SLOPE %s' % str(slope) + '%')
     # plt.xlabel('DATE_FROM %s ' % str(begin) + '%')
-    plt.xlabel('SLOPE %s ' % str(slope) + '%')
+    plt.ylabel('INCIDENTS (%s)'% str(inc_sum))
 
-    plt.ylabel('inc_sum  %s ' % str(inc_sum))
+    plt.xlabel('YEARS')
 
     plt.scatter(x, y)
     plt.plot(x, y_pred, color='black')
+    # plt.tight_layout()
+    plt.savefig('plots/sample.png')
+    filename = 'plots/sample.png'
     plt.show()
-    return slope
+    return slope, filename
 
 
 years_ago = 3
 product = "nuts, nut products and seeds"
 df = load_dataset(years_ago, product)
-slope=linear_regression(df)
+slope = linear_regression(df)
 print(slope)
 # df_day_freq = df
 # df_weekly_freq = df.resample('W').sum()
