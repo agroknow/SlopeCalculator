@@ -7,7 +7,10 @@ app.config["DEBUG"] = True
 
 @app.route('/')
 def hello_world():
-    return render_template('sample.html')
+    from linear_last_3_years import dropdown
+    menu=dropdown()
+
+    return render_template('sample.html', menu=menu)
 
 @app.route('/linear', methods=['GET'])
 def linear():
@@ -17,7 +20,9 @@ def linear():
     years_ago = parameters.get('years_ago')
     years_ago=int(years_ago)
 
-    from linear_last_3_years import load_dataset,linear_regression
+    from linear_last_3_years import load_dataset,linear_regression,dropdown
+    menu=dropdown()
+
     df = load_dataset(years_ago, product)
     slope, filename = linear_regression(df)
     with open(filename, "rb") as image_file:
@@ -28,7 +33,7 @@ def linear():
     # imag='<img src="data:image/png;base64, ' +str(encoded_string.decode('utf-8'))+'" />'
     # return '<img src="data:image/png;base64, ' +str(encoded_string.decode('utf-8'))+'" />'
 
-    return render_template('sample.html',encoded_string=encoded_string, product=product, years_ago=years_ago)
+    return render_template('sample.html',encoded_string=encoded_string, product=product, years_ago=years_ago, menu=menu)
     # return render_template('sample.html',imag=imag)
 
 @app.errorhandler(404)

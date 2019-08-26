@@ -1,5 +1,14 @@
 #
-
+def dropdown():
+    menu = ["dietetic foods, food supplements, fortified foods", "cocoa and cocoa preparations, coffee and tea",
+            "confectionery", "prepared dishes and snacks", "food contact materials", "non-alcoholic beverages",
+            "soups, broths, sauces and condiments", "bivalve molluscs and products therefor",
+            "cephalopods and products thereof", "fats and oils", "ices and desserts", "eggs and egg products",
+            "honey and royal jelly", "alcoholic beverages", "feed additives", "pet feed",
+            "poultry meat and poultry meat products", "cereals and bakery products", "fish and fish products",
+            "herbs and spices", "meat and meat products (other than poultry)", "nuts, nut products and seeds",
+            "milk and milk products"]
+    return menu
 
 def load_dataset(years_ago, product):
     from datetime import datetime, timedelta
@@ -18,6 +27,7 @@ def load_dataset(years_ago, product):
     end = str(now.year - 1) + '-12' + '-31'
     begin = str(now.year - years_ago) + '-01' + '-01'
     print(begin)
+
     request = {
         "aggregations": {
             "years_month": {
@@ -47,7 +57,6 @@ def load_dataset(years_ago, product):
     }
 
     apikey=str(api_key)
-    # apikey = '32aa618e-be8b-32da-bc99-5172f90a903e'
     base_incidents = 'http://148.251.22.254:8080/search-api-1.0/search/'
     headers = {'Content-type': 'application/json', 'Accept': 'application/json'}
     request['entityType'] = 'incident'
@@ -70,6 +79,12 @@ def load_dataset(years_ago, product):
     df['date_ordinal'] = pd.to_datetime(df['key_as_string']).map(dt.datetime.toordinal)
     df.set_index('priceStringDate', inplace=True)
     df = df.drop(columns=['key_as_string', 'key'])
+    if years_ago==1:
+        df_year_freq = df.resample('M').sum()
+        df = df_year_freq
+    else :
+        df_year_freq = df.resample('Y').sum()
+        df = df_year_freq
     return df
 
     # products = ["dietetic foods, food supplements, fortified foods", "cocoa and cocoa preparations, coffee and tea",
@@ -90,9 +105,8 @@ def linear_regression(df):
     import matplotlib.pyplot as plt
     import pandas as pd
     import datetime as dt
-    df_year_freq = df.resample('Y').sum()
 
-    df = df_year_freq
+
     # linear
     df = df.reset_index()
     df['date_ordinal'] = pd.to_datetime(df['priceStringDate']).map(dt.datetime.toordinal)
@@ -121,10 +135,12 @@ def linear_regression(df):
     return slope, filename
 
 
-years_ago = 3
+years_ago = 1
 product = "nuts, nut products and seeds"
 df = load_dataset(years_ago, product)
 slope = linear_regression(df)
+menu=dropdown()
+print(menu)
 print(slope)
 # df_day_freq = df
 # df_weekly_freq = df.resample('W').sum()
