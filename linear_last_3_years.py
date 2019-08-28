@@ -33,15 +33,6 @@ def dropdown():
     df = pd.DataFrame(parsed['aggregations']['sterms#products']['buckets'])
     df = df.drop(columns=['doc_count'])
 
-    # menu = ["dietetic foods, food supplements, fortified foods", "cocoa and cocoa preparations, coffee and tea",
-    #         "confectionery", "prepared dishes and snacks", "food contact materials", "non-alcoholic beverages",
-    #         "soups, broths, sauces and condiments", "bivalve molluscs and products therefor",
-    #         "cephalopods and products thereof", "fats and oils", "ices and desserts", "eggs and egg products",
-    #         "honey and royal jelly", "alcoholic beverages", "feed additives", "pet feed",
-    #         "poultry meat and poultry meat products", "cereals and bakery products", "fish and fish products",
-    #         "herbs and spices", "meat and meat products (other than poultry)", "nuts, nut products and seeds",
-    #         "milk and milk products"]
-    # # menu=df.to_numpy()
     menu = list(df['key'])
     return menu
 
@@ -118,7 +109,7 @@ def load_dataset(years_ago, product):
     try:
         df['priceStringDate'] = pd.to_datetime(df['key_as_string'])
     except:
-        return None, "not available\nTry with another product"
+        return None, "Νot available\nTry another product"
     # print(df.groupby(by=[df.index.month, df.index.year]))
     df['date_ordinal'] = pd.to_datetime(df['key_as_string']).map(dt.datetime.toordinal)
     df.set_index('priceStringDate', inplace=True)
@@ -127,34 +118,24 @@ def load_dataset(years_ago, product):
     if years_ago == 1:
         c = len(df)
         if c <= (365 * 70 / 100):
-            msg = "not available\nTry with another product"
+            msg = "Νot available\nTry another product"
         df_year_freq = df.resample('M').sum()
         df = df_year_freq
     elif years_ago == 6:
         c = len(df)
         if c <= (185 * 70 / 100):
-            msg = "not available\nTry with another product"
+            msg = "Νot available\nTry another product"
         df_year_freq = df.resample('M').sum()
         df = df_year_freq
     else:
         c = len(df)
         if c <= (1080 * 70 / 100):
-            msg = "not available\nTry with another product"
+            msg = "Νot available\nTry another product"
         df_year_freq = df.resample('Y').sum()
         df = df_year_freq
     return df, msg
 
-    # products = ["dietetic foods, food supplements, fortified foods", "cocoa and cocoa preparations, coffee and tea",
-    #             "confectionery", "prepared dishes and snacks", "food contact materials", "non-alcoholic beverages",
-    #             "soups, broths, sauces and condiments", "bivalve molluscs and products therefor",
-    #             "cephalopods and products thereof", "fats and oils", "ices and desserts", "eggs and egg products",
-    #             "honey and royal jelly", "alcoholic beverages", "feed additives", "pet feed",
-    #             "poultry meat and poultry meat products", "cereals and bakery products", "fish and fish products",
-    #             "herbs and spices", "meat and meat products (other than poultry)", "nuts, nut products and seeds",
-    #             "milk and milk products"]
-    # for product in products:
 
-    # freq
 
 
 def linear_regression(df):
