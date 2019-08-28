@@ -19,11 +19,14 @@ def linear():
     product = parameters.get('product')
     years_ago = parameters.get('years_ago')
     years_ago=int(years_ago)
-
+    product=str(product)
     from linear_last_3_years import load_dataset,linear_regression,dropdown
     menu=dropdown()
 
-    df = load_dataset(years_ago, product)
+    df, msg = load_dataset(years_ago, product)
+
+    if df is None:
+        return  str(msg)
     slope, filename = linear_regression(df)
     with open(filename, "rb") as image_file:
         encoded_string = base64.b64encode(image_file.read())
@@ -32,9 +35,11 @@ def linear():
     encoded_string = str(encoded_string.decode('utf-8'))
     # imag='<img src="data:image/png;base64, ' +str(encoded_string.decode('utf-8'))+'" />'
     # return '<img src="data:image/png;base64, ' +str(encoded_string.decode('utf-8'))+'" />'
-
-    return render_template('sample.html',encoded_string=encoded_string, product=product, years_ago=years_ago, menu=menu)
-    # return render_template('sample.html',imag=imag)
+    if msg is 'ok':
+        return render_template('sample.html',encoded_string=encoded_string, product=product, years_ago=years_ago, menu=menu)
+    else:
+        return str(msg)
+    #return render_template('sample.html',imag=imag)
 
 @app.errorhandler(404)
 def page_not_found(e):
