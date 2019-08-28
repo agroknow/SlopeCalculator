@@ -1,3 +1,7 @@
+import calendar
+import time
+
+
 def dropdown():
     import requests
     import json
@@ -156,6 +160,9 @@ def linear_regression(df):
     print('slope:', slope)
     y_pred = reg.predict(x)
     inc_sum = df['doc_count'].sum()
+
+    ts = calendar.timegm(time.gmtime())
+    filename = 'plots/' + str(ts) + '.png'
     # plot
     plt.title('LINEAR REGRESSION SLOPE %s' % str(slope) + '%')
     # plt.xlabel('DATE_FROM %s ' % str(begin) + '%')
@@ -166,9 +173,9 @@ def linear_regression(df):
     plt.scatter(x, y)
     plt.plot(x, y_pred, color='black')
     # plt.tight_layout()
-    plt.savefig('plots/sample.png')
-    filename = 'plots/sample.png'
+    plt.savefig(filename)
     plt.show()
+    plt.clf()
     return slope, filename
 
 # years_ago = 1
