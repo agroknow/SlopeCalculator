@@ -8,22 +8,25 @@ app.config["DEBUG"] = True
 @app.route('/')
 def hello_world():
     from linear_last_3_years import dropdown
-    menu=dropdown()
+    menu, menu_haz=dropdown()
 
-    return render_template('sample.html', menu=menu)
+
+    return render_template('sample.html', menu=menu, hazards=menu_haz)
 
 @app.route('/linear', methods=['GET'])
 def linear():
     parameters = request.args
 
     product = parameters.get('product')
+    hazards = parameters.get('hazard')
+
     years_ago = parameters.get('years_ago')
     years_ago=int(years_ago)
     product=str(product)
     from linear_last_3_years import load_dataset,linear_regression,dropdown
-    menu=dropdown()
+    menu, menu_haz=dropdown()
 
-    df, msg = load_dataset(years_ago, product)
+    df, msg = load_dataset(years_ago, product, hazards)
 
     if df is None:
         return  str(msg)
@@ -36,7 +39,7 @@ def linear():
     # imag='<img src="data:image/png;base64, ' +str(encoded_string.decode('utf-8'))+'" />'
     # return '<img src="data:image/png;base64, ' +str(encoded_string.decode('utf-8'))+'" />'
     if msg is 'ok':
-        return render_template('sample.html',encoded_string=encoded_string, product=product, years_ago=years_ago, menu=menu)
+        return render_template('sample.html',encoded_string=encoded_string, product=product, years_ago=years_ago, menu=menu, hazards=menu_haz)
     else:
         return str(msg)
     #return render_template('sample.html',imag=imag)

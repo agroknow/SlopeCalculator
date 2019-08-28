@@ -14,7 +14,14 @@ def dropdown():
         "aggregations": {
             "products": {
                 "attribute": "products.value.keyword",
-                "size": 6000}},
+                "size": 1000
+            },
+            "hazards": {
+                "attribute": "hazards.value.keyword",
+                "size": 100
+            }
+        },
+
         "apikey": api_key,
         "from": '2014-12-31',
         "detail": True,
@@ -33,15 +40,17 @@ def dropdown():
     parsed = response.json()
     print(parsed)
     # quit(0)
-
+    dfhazard = pd.DataFrame(parsed['aggregations']['sterms#hazards']['buckets'])
+    dfhazard = dfhazard.drop(columns=['doc_count'])
     df = pd.DataFrame(parsed['aggregations']['sterms#products']['buckets'])
     df = df.drop(columns=['doc_count'])
 
+    menu_haz=list(dfhazard['key'])
     menu = list(df['key'])
-    return menu
+    return menu, menu_haz
 
 
-def load_dataset(years_ago, product):
+def load_dataset(years_ago, product, hazards):
     from datetime import datetime, timedelta
     from dateutil.relativedelta import relativedelta
     import dateutil.relativedelta
@@ -88,7 +97,8 @@ def load_dataset(years_ago, product):
         "entityType": "incident",
         "pageSize": 0,
         "strictQuery": {
-            "products.value": product
+            "products.value": product,
+            "hazards.value": hazards
         }
     }
 
