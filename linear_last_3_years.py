@@ -138,15 +138,15 @@ def multipleReg(product,years_ago):
 
     ts = calendar.timegm(time.gmtime())
     if years_ago==3 or years_ago==1 or years_ago==6:
-        plt.scatter(xarr[0], yarr[0], color='black', label="general")  # based on general
-        plt.scatter(xarr[1], yarr[1], color='green', label="chemical")  # based on general
-        plt.scatter(xarr[2], yarr[2], color='red', label="biological")  # based on general
-        plt.scatter(xarr[3], yarr[3], color='blue', label="fraud")  # based on general
+        plt.scatter(xarr[0], yarr[0], color='black')  # based on general
+        plt.scatter(xarr[1], yarr[1], color='green')  # based on general
+        plt.scatter(xarr[2], yarr[2], color='red')  # based on general
+        plt.scatter(xarr[3], yarr[3], color='blue')  # based on general
 
-        plt.plot(xarr[0], yprearr[0], color='black')
-        plt.plot(xarr[1], yprearr[1], color='green')
-        plt.plot(xarr[2], yprearr[2], color='red')
-        plt.plot(xarr[3], yprearr[3], color='blue')    # i=0
+        plt.plot(xarr[0], yprearr[0], color='black', label="general")
+        plt.plot(xarr[1], yprearr[1], color='green', label="chemical")
+        plt.plot(xarr[2], yprearr[2], color='red', label="biological")
+        plt.plot(xarr[3], yprearr[3], color='blue', label="fraud")    # i=0
 
     #     plt.plot(xarr[0], yprearr[i], color='black')
 

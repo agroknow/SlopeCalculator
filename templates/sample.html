@@ -110,17 +110,17 @@ text-align: center;
 <h3> Period:{{years_ago}}</h3>
 <!--<h3> Selection:{{Item_1}}</h3>-->
 <div>
-<!--    <div>-->
-<!--        <p> BLACK FOR GENERAL</p>-->
-<!--        <p> GREEN FOR CHEMICAL</p>-->
-<!--        <p> BLACK FOR GENERAL</p>-->
-<!--        <p> BLACK FOR GENERAL</p>-->
+    <div style="text-align: left">
+        <p STYLE="color: black"> BLACK FOR GENERAL</p>
+        <p STYLE="color: green"> GREEN FOR CHEMICAL</p>
+        <p STYLE="color: red"> RED FOR BIOLOGICAL</p>
+        <p STYLE="color: blue"> BLUE FOR FRAUD</p>
 
-<!--        </div>-->
+        </div>
 <img src="data:image/png;base64, {{encoded_string}}" />
     </div>
  <div style="text-align:left;background-color:lightblue">
-    <h4> Slope results</h4>
+    <h3> Slope results</h3>
     {% for slope in sloparr %}
     <p>{{slope}}</p>"
     {% endfor %}
