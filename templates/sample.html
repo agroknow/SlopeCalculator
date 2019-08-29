@@ -115,8 +115,9 @@ text-align: center;
     </div>
  <div style="text-align:left;background-color:lightblue">
     <h3> Slope results</h3>
-    {% for k, v in sloparr.iteritems %}
-    <p>{{k}}: {{v}}</p>"
+
+    {% for k, v in sloparr.items() %}
+    <p>{{k}}: {{v}}</p>
     {% endfor %}
 </div >
     </div>

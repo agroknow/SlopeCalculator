@@ -128,7 +128,7 @@ def multipleReg(product,years_ago):
             xarr.append(x)
             yarr.append(y)
             yprearr.append(y_pred)
-            sloparr[hazards]=slope
+            sloparr[hazards]=slope[0]
 
     if n==1:
         msg="Νot available\nTry another product"
