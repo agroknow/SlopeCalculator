@@ -108,7 +108,7 @@ def multipleReg(product,years_ago):
     xarr=[]
     yarr=[]
     yprearr=[]
-    sloparr=[]
+    sloparr={}
     print ("im in mult")
     n=0
     for hazards in popular_hazards:
@@ -128,7 +128,7 @@ def multipleReg(product,years_ago):
             xarr.append(x)
             yarr.append(y)
             yprearr.append(y_pred)
-            sloparr.append(slope)
+            sloparr[hazards]=slope
 
     if n==1:
         msg="Νot available\nTry another product"
@@ -157,7 +157,9 @@ def multipleReg(product,years_ago):
     plt.title('LINEAR REGRESSION SLOPE ')
     plt.xlabel('YEARS')
     # plt.tight_layout()
+    plt.legend(["general", "chemical", "biological", "fraud"])
     plt.savefig(filename)
+    # plt.legend(["general","chemical","biological","fraud"])
     plt.show()
     plt.clf()
 
