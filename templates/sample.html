@@ -71,8 +71,9 @@ text-align: center;
 <h3> Product Name</h3>
     <br>
 <select name= "product"  method="GET" action="/">
-    {% for product in menu %}
-    <option value= "{{product}}" SELECTED>{{product}}</option>"
+      <option value= "{{menu[0]}}" SELECTED>{{menu[0]}}</option>"
+    {% for product in menu[1:] %}
+    <option value= "{{product}}" >{{product}}</option>"
     {% endfor %}
 </select>
 
@@ -81,9 +82,13 @@ text-align: center;
 <h3> Hazard</h3>
     <br>
 <select name= "hazard"  method="GET" action="/">
+    <option value="NONE"SELECTED>NONE </option>
+    <option value="ALL">ALL </option>
     {% for hazard in hazards %}
-    <option value= "{{hazard}}" SELECTED>{{hazard}}</option>"
+    <option value= "{{hazard}}" >{{hazard}}</option>"
     {% endfor %}
+
+
 </select>
 
 </select>
@@ -99,11 +104,27 @@ text-align: center;
 
   <input type="submit" value="GO">
 </form>
+
 <h3> Product Name:{{product}}</h3>
+<h3> Hazard Name:{{hazard}}</h3>
 <h3> Period:{{years_ago}}</h3>
 <!--<h3> Selection:{{Item_1}}</h3>-->
+<div>
+<!--    <div>-->
+<!--        <p> BLACK FOR GENERAL</p>-->
+<!--        <p> GREEN FOR CHEMICAL</p>-->
+<!--        <p> BLACK FOR GENERAL</p>-->
+<!--        <p> BLACK FOR GENERAL</p>-->
 
+<!--        </div>-->
 <img src="data:image/png;base64, {{encoded_string}}" />
+    </div>
+ <div style="text-align:left;background-color:lightblue">
+    <h4> Slope results</h4>
+    {% for slope in sloparr %}
+    <p>{{slope}}</p>"
+    {% endfor %}
+</div >
     </div>
 
 </body>

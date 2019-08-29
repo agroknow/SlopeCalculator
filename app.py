@@ -23,14 +23,35 @@ def linear():
     years_ago = parameters.get('years_ago')
     years_ago=int(years_ago)
     product=str(product)
+    hazards = str(hazards)
+    print (hazards)
+    # hazards='NONE'
+    sloparr=[]
+    if hazards== 'ALL':
+        print ("if")
+        from linear_last_3_years import multipleReg
+        slope, filename, msg, sloparr =multipleReg(product,years_ago)
+        print(msg)
+        if msg != "ok":
+            return str(msg)
+    elif hazards =="NONE":
+        from linear_last_3_years import load_dataset_without_haz, linear_regression
+        df, msg = load_dataset_without_haz(years_ago, product)
+        if df is None:
+            return str(msg)
+        slope, filename, x, y, y_pred = linear_regression(df)
+    else:
+        # hazards='chemical'
+        from linear_last_3_years import load_dataset, linear_regression
+        df, msg = load_dataset(years_ago, product, hazards)
+        if df is None:
+            return str(msg)
+        slope, filename,x,y,y_pred = linear_regression(df)
+
     from linear_last_3_years import load_dataset,linear_regression,dropdown
     menu, menu_haz=dropdown()
 
-    df, msg = load_dataset(years_ago, product, hazards)
 
-    if df is None:
-        return  str(msg)
-    slope, filename = linear_regression(df)
     with open(filename, "rb") as image_file:
         encoded_string = base64.b64encode(image_file.read())
 
@@ -38,8 +59,10 @@ def linear():
     encoded_string = str(encoded_string.decode('utf-8'))
     # imag='<img src="data:image/png;base64, ' +str(encoded_string.decode('utf-8'))+'" />'
     # return '<img src="data:image/png;base64, ' +str(encoded_string.decode('utf-8'))+'" />'
+    if not sloparr:
+        sloparr=slope
     if msg is 'ok':
-        return render_template('sample.html',encoded_string=encoded_string, product=product, years_ago=years_ago, menu=menu, hazards=menu_haz)
+        return render_template('sample.html',encoded_string=encoded_string, product=product, years_ago=years_ago, menu=menu, hazards=menu_haz, hazard=hazards, sloparr=sloparr)
     else:
         return str(msg)
     #return render_template('sample.html',imag=imag)
